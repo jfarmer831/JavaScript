@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Pizza Delivery</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="./css/pizza.css">
+</head>
+<body >
+<div class="nameimg">
+<div class="name">THE <br> PIZZA <br>PLACE</p>
+</div>
+</div>
+<p ><h2 id="here"> Order Your Delicious Pizza Here:</h2></p> 
+<div class="lgcontainer">
+
+
+<div class="menu" id="size">
+<form action="">
+<p id="selecttitle">Please Select Your<br> Pizza Size</p>
+	 <input type="radio" name="pizzasize" value="Personal Pizza"> Personal Pizza<br>
+	 <input type="radio" name="pizzasize" value="Medium Pizza"> Medium Pizza<br>
+	 <input type="radio" name="pizzasize" value="Large Pizza"> Large Pizza<br>
+	 <input type="radio" name="pizzasize" value="Extra Large Pizza"> Extra Large Pizza
+</form>
+</div>
+
+<div class="menu" id="meat">
+<p id="selecttitle">Please Select Your <br>Choice of Meat</p>
+
+	<input type="checkbox" name="meatchoice" value="Pepperoni"> Pepperoni<br>
+	<input type="checkbox" name="meatchoice" value="Sausage"> Sausage<br>
+	<input type="checkbox" name="meatchoice" value="Canadian Bacon" checked> Canadian Bacon<br> 
+	<input type="checkbox" name="meatchoice" value="Ground Beef" checked> Ground Beef<br> 
+	<input type="checkbox" name="meatchoice" value="Chicken" checked> Chicken<br> 
+	<input type="checkbox" name="meatchoice" value="Anchovy" checked> Anchovy<br> 
+</div>
+
+<div class="menu" id="cheese">
+<p id="selecttitle">Please Select Your <br>Choice of Cheese</p>
+<form action="">
+	 <input type="radio" name="cheesechoice" value="Regular"> Regular<br>
+	 <input type="radio" name="cheesechoice" value="No Cheese">No Cheese<br>
+	 <input type="radio" name="cheesechoice" value="Extra Cheese">Extra Cheese<br>  
+</form>
+</div>
+
+<div class="menu" id="crust">
+<p id="selecttitle">Please Select Your<br> Choice of Crust</p>
+<form action="">
+	  <input type="radio" name="crustchoice" value="Plain">Plain<br>
+	  <input type="radio" name="crustchoice" value="Garlic Butter">Garlic Butter<br>
+	  <input type="radio" name="crustchoice" value="Cheese Stuffed">Cheese Stuffed<br>
+	  <input type="radio" name="crustchoice" value="Spicy">Spicy<br>
+	  <input type="radio" name="crustchoice" value="House Special">House Special
+</form>
+</div>
+
+<div class="menu" id="sauce">
+<p id="selecttitle">Please Select Your<br>Choice of Sauce</p>
+<form action="">
+	  <input type="radio" name="saucechoice" value="Marinara"> Marinara<br>
+	  <input type="radio" name="saucechoice" value="White"> White<br>
+	  <input type="radio" name="saucechoice" value="Barbeque"> Barbeque<br>
+	  <input type="radio" name="saucechoice" value="No Sauce"> No Sauce<br>
+</form>
+</div>
+
+<div class="menu" id="veggie">
+<p id="selecttitle">Please Select Your <br>Choice of Veggies</p>
+	<input type="checkbox" name="veggiechoice" value="Tomatoes">Tomatoes<br>
+	<input type="checkbox" name="veggiechoice" value="Onions">Onions<br>
+	<input type="checkbox" name="veggiechoice" value="Olives">Olives<br>
+	<input type="checkbox" name="veggiechoice" value="Green Peppers">Green Peppers<br>
+	<input type="checkbox" name="veggiechoice" value="Mushrooms">Mushrooms<br>
+	<input type="checkbox" name="veggiechoice" value="Pineapple">Pineapple<br>
+	<input type="checkbox" name="veggiechoice" value="Spinach">Spinach<br>
+	<input type="checkbox" name="veggiechoice" value="Jalapeno">Jalapeno<br>
+</div>
+
+</div>
+<button id="btn" onclick="getTotal()">Total Cost<br></button>
+<div id="cart">
+	<div id="showtext1"></div>
+	<div id="showtext2"></div>
+	<div id="totalPrice"></div>		
+</div>
+	
+<script src="pizza.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+	background-color: red;
+	margin: auto;
+	font-family: "Times New Roman", Times, serif;
+	padding: auto;
+}
+
+.nameimg {
+	background-image: url("../img/pizza.jpg");
+	height: 4%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1em solid;
+	border-color: white;
+	position: relative;	
+	margin-bottom: 1%;
+}
+
+.name {
+		text-align: right; 
+		color: red;
+		font-size: 5em;
+		padding-right: 1%;
+		text-shadow: 3px 2px black;
+}
+
+#here {
+	text-align: center;
+	color: white;
+	font-size: 3em;
+} 
+
+#selecttitle {
+	font-size: 1em;
+	color: blue;	
+}
+		
+.lgcontainer {
+	
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	width: 80%;
+	height: 90%;
+	border: 1em solid;
+	border-color: gray;
+	border-style: groove;
+	padding: 2%;
+	margin: auto;
+	font-family: "Times New Roman", Times, serif;
+	background-color: white;	
+}
+
+.menu {
+	display: inline-block;
+	display: block;
+	flex-direction: right;
+	align-items: square;
+	width: 90%;
+	height: 90%;
+	padding: 2%;
+}
+
+#crust, #sauce, #veggie, #veggie {
+	display: inline-block;
+	position: bottom;
+	position: sticky;
+	border-color: black;
+}
+
+#size, #meat, #cheese {
+	display: inline-block;
+	display: justify;
+	position: sticky;
+	border-color: black;
+	
+}
+#btn {
+	margin-top: 1%;
+	margin-left: 7%;
+	margin-bottom: .5%;
+	width: 10%;
+	height: 10%;
+	font-size: 1em;
+	padding: .5%;
+}
+
+#cart {
+	opacity: 0;
+	background-color: white;
+	border: 1em solid;
+	border-color: gray;
+	border-style: groove;
+	display: flex;
+	padding: 1%;
+	width: 30%;
+	margin: auto;
+}
+
+#showtext1 {
+	float: left;
+	margin-left: 4%;
+	margin-top: 10%;
+}
+
+#showtext2 {
+	float: right;
+	text-align: right-side;
+	margin-left: 55%;
+	margin-top: 10%;
+	
+	
+	}
+	
+#totalPrice {
+	position: absolute;
+	font-weight: bold;
+}
